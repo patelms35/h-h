@@ -1,0 +1,73 @@
+/*=======Responsive Design=======*/
+
+@media screen and (max-width: 1200px) {
+  .about-img img {
+    max-width: 100%;
+  }
+  .dr-button a{
+    font-size: 11px;
+    padding: 8px 20px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .hero-section {
+    padding: 60px 0px;
+  }
+  .cards-section {
+    z-index: 10;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .btn-appointment {
+    font-size: 14px;
+  }
+  .about-img img {
+    max-width: 100%;
+  }
+
+  .cta-section{
+    padding: 50px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .cat-btn{
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .dr-button {
+    display: flex;
+  justify-content: center;
+  }
+  .dr-button a{
+    font-size: 14px;
+    padding: 8px 50px;
+  }
+}
+@media (max-width: 570px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .logo img {
+    width: 100px;
+  }
+  .btn-appointment {
+    font-size: 12px;
+  }
+  .hero-center h1 {
+    font-size: 48px;
+  }
+  .card {
+    margin: 20px 0px;
+  }
+  .about-section {
+    padding: 60px 0px;
+  }
+}
